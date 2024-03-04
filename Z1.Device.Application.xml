@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.2.0.0" runtimeid="3.5.18.40" libversion="4.2.0.0" compiler="3.5.18.40" lmm="3.5.18.40" profile="CODESYS V3.5 SP18 Patch 4+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Z1" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_DINT" size="4" swapsize="4" typeclass="DInt" iecname="DINT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="FIO">
+        <Node name="iManipMovingX" type="T_BOOL" access="ReadWrite" />
+        <Node name="iManipMovingZ" type="T_BOOL" access="ReadWrite" />
+        <Node name="iPositionerClampedL" type="T_BOOL" access="ReadWrite" />
+        <Node name="iPositionerClampedU" type="T_BOOL" access="ReadWrite" />
+        <Node name="iProgressMcL" type="T_DINT" access="ReadWrite" />
+        <Node name="iProgressMcU" type="T_DINT" access="ReadWrite" />
+        <Node name="iSensClampInL" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensClampInU" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensManipInL" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensManipInU" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensManipOutL" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensMcL" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensMcU" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensTestL" type="T_DINT" access="ReadWrite" />
+        <Node name="iSensTestOutL" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensTestOutU" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSensTestU" type="T_DINT" access="ReadWrite" />
+        <Node name="oBeltC1L" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltC1U" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltC2L" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltC2U" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltManipL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltManipU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltMcL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltMcU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltSHL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltSHU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltTestL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltTestU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltVL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oBeltVU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oEmitBadL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oEmitBadU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oEmitGoodL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oEmitGoodU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oManipGrab" type="T_BOOL" access="ReadWrite" />
+        <Node name="oManipMoveX" type="T_BOOL" access="ReadWrite" />
+        <Node name="oManipMoveZ" type="T_BOOL" access="ReadWrite" />
+        <Node name="oPivotArmL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oPivotArmRollL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oPivotArmRollU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oPivotArmU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oPositionerClampL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oPositionerClampU" type="T_BOOL" access="ReadWrite" />
+        <Node name="oPositionerRaise" type="T_BOOL" access="ReadWrite" />
+        <Node name="oStartMcL" type="T_BOOL" access="ReadWrite" />
+        <Node name="oStartMcU" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
